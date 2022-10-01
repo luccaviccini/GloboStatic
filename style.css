@@ -1,3 +1,6 @@
+.caixao{
+    width: 100%;
+}
 div {
     font-family: 'Encode Sans', sans-serif;
 }
@@ -19,12 +22,20 @@ div {
     line-height: 24px;
     display: flex;
     align-items: center;
-    text-align: center;
     letter-spacing: -0.02em;
-    justify-content: space-around;
+    justify-content: center;
+    border-top: 1px solid #f5f6f7;
+    border-bottom: 1px solid #f5f6f7;   
+    padding: 10px 0px;
     
+    margin:auto;
 }
-
+.menu{
+    display: flex;
+    width: 1250px;
+    justify-content: space-between;
+}
+/*
 .divisoria {
     height: 1px;
     background-color: #f5f6f7;
@@ -34,7 +45,7 @@ div {
     width: 1px;
     background-color: #f5f6f7;
 }
-
+*/
 .g1 {
     color: #C3170C;
 }
@@ -79,10 +90,14 @@ div {
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
-    width: 1920px;
+    width: 1250px;
+    margin:auto
 }
 
-
+.esquerda{
+    width: 57%;
+    padding-left: 15px; 
+}
 .materia-principal {
     font-family: 'Encode Sans', sans-serif;
     font-size: 52px;
@@ -105,18 +120,24 @@ div {
     color: #303134;
     margin-bottom: 3px;
 }
+.esquerda-superior {
 
-
-
-
-
+    border-top: 1px solid #f5f6f7;
+    padding-top: 15px;
+    padding-right: 15px;
+}
 .esquerda-central {
     display: flex;
     justify-content: space-between;
+    border-top: 1px solid #f5f6f7;
+    padding-top: 15px;
+    padding-right: 15px;
 }
 .esquerda-inferior {
+    border-top: 1px solid #f5f6f7;
     display: flex;
     justify-content: space-between;
+    padding-top: 15px;
 }
 
 h2 {
@@ -152,7 +173,7 @@ h3 {
     letter-spacing: -0.048em;
     color: #2F3134;
     width: 192px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 
@@ -164,12 +185,63 @@ h3 {
 }
 
 .direita {
-    background-color: rgb(37, 73, 73);
-    width: 625px;
+    background-color: white;
+    width: 50%;
+    border-left: 1px solid #f5f6f7;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+.direita-esquerda h2 {
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: #16AE54;
+    width: 240px;
 }
 
+
+.direita h1 {
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.045em;
+    color: #2F3134;
+    width: 240px;
+    margin-bottom: 10px;
+}
+
+.direita h3 {
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.048em;
+    color: #2F3134;
+    width: 240px;
+    margin-bottom: 15px;
+}
+.direita img {
+    width: 240px;
+    height: 128px;
+    border-radius: 12px;
+}
+.direita-direita h2 {
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: #EC8006;
+    width: 240px;
+}
 p {
     font-family: 'Encode Sans';
     font-style: normal;
@@ -181,8 +253,3 @@ p {
     color: #303134;
 }
 
-hr {
-    width: 624px;
-    height: 1px;
-    background: #EBEDEF;
-}

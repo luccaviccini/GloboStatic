@@ -22,6 +22,7 @@ div {
     text-align: center;
     letter-spacing: -0.02em;
     justify-content: space-around;
+    
 }
 
 .divisoria {
@@ -75,7 +76,7 @@ div {
 }
 
 .noticias {
-    background-color: rgb(123, 123, 126);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
     width: 1920px;
@@ -107,12 +108,15 @@ div {
 
 
 
-.esquerda-superior {
-    background-color: #FFFFFF;
-}
+
 
 .esquerda-central {
     display: flex;
+    justify-content: space-between;
+}
+.esquerda-inferior {
+    display: flex;
+    justify-content: space-between;
 }
 
 h2 {
@@ -123,7 +127,9 @@ h2 {
     line-height: 18px;
     letter-spacing: -0.02em;
     color: #C4170C;
+    width: 192px;
 }
+
 
 h1 {
     font-family: 'Encode Sans';
@@ -133,16 +139,28 @@ h1 {
     line-height: 25px;
     letter-spacing: -0.045em;
     color: #2F3134;
-    width:192px;
+    width: 192px;
+    margin-bottom: 10px;
 }
-h3{
-    
+
+h3 {
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.048em;
+    color: #2F3134;
+    width: 192px;
+    margin-bottom: 20px;
 }
+
 
 .esquerda-central img {
     width: 193px;
     height: 110px;
     border-radius: 12px;
+
 }
 
 .direita {

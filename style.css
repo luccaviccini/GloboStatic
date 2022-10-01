@@ -1,0 +1,170 @@
+div {
+    font-family: 'Encode Sans', sans-serif;
+}
+
+.barra-topo {
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abas {
+
+    font-family: 'Encode Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    justify-content: space-around;
+}
+
+.divisoria {
+    height: 1px;
+    background-color: #f5f6f7;
+}
+
+.divisoria-vertical {
+    width: 1px;
+    background-color: #f5f6f7;
+}
+
+.g1 {
+    color: #C3170C;
+}
+
+.oglobo {
+    color: #1E4B9B
+}
+
+.valor {
+    color: #006766
+}
+
+.ge {
+    color: #07AA47
+}
+
+.cartola {
+    color: #FB0735
+}
+
+.globoplay {
+    color: #FB0735
+}
+
+.dropz {
+    color: #FF75BB;
+}
+
+.gshow {
+    color: #EC7D00
+}
+
+.quem {
+    color: #323333
+}
+
+.receitas {
+    color: #A81D83
+}
+
+.noticias {
+    background-color: rgb(123, 123, 126);
+    display: flex;
+    justify-content: space-around;
+    width: 1920px;
+}
+
+
+.materia-principal {
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 52px;
+    color: #C4160C;
+    width: 624px;
+    height: 201px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: -0.01em;
+    margin-bottom: 5px;
+}
+
+.materia-secundaria {
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    color: #303134;
+    margin-bottom: 3px;
+}
+
+
+
+.esquerda-superior {
+    background-color: #FFFFFF;
+}
+
+.esquerda-central {
+    display: flex;
+}
+
+h2 {
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: #C4170C;
+}
+
+h1 {
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.045em;
+    color: #2F3134;
+    width:192px;
+}
+h3{
+    
+}
+
+.esquerda-central img {
+    width: 193px;
+    height: 110px;
+    border-radius: 12px;
+}
+
+.direita {
+    background-color: rgb(37, 73, 73);
+    width: 625px;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+
+    color: #303134;
+}
+
+hr {
+    width: 624px;
+    height: 1px;
+    background: #EBEDEF;
+}

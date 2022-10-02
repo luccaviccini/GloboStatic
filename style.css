@@ -35,8 +35,8 @@ div {
     width: 1250px;
     justify-content: space-between;
 }
-/*
-.divisoria {
+
+.divisoria-horizontal {
     height: 1px;
     background-color: #f5f6f7;
 }
@@ -45,7 +45,9 @@ div {
     width: 1px;
     background-color: #f5f6f7;
 }
-*/
+a{
+    text-decoration: none;
+}
 .g1 {
     color: #C3170C;
 }

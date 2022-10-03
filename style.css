@@ -38,12 +38,15 @@ div {
 
 .divisoria-horizontal {
     height: 1px;
-    background-color: #f5f6f7;
+    background-color: #EBEDEF;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .divisoria-vertical {
     width: 1px;
-    background-color: #f5f6f7;
+    background-color: #EBEDEF;
+    margin:  0px 20px;
 }
 a{
     text-decoration: none;
@@ -87,18 +90,24 @@ a{
 .receitas {
     color: #A81D83
 }
-
+.noticias-container{
+    display: flex;
+    justify-content: center;
+}
 .noticias {
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
     width: 1250px;
-    margin:auto
+    margin-top: 40px;
+    
 }
 
 .esquerda{
-    width: 57%;
-    padding-left: 15px; 
+    width: 60%;
+}
+.esquerda-superior {
+    margin-bottom: 20px
 }
 .materia-principal {
     font-family: 'Encode Sans', sans-serif;
@@ -121,25 +130,19 @@ a{
     letter-spacing: -0.01em;
     color: #303134;
     margin-bottom: 3px;
-}
-.esquerda-superior {
-
-    border-top: 1px solid #f5f6f7;
-    padding-top: 15px;
-    padding-right: 15px;
+    
 }
 .esquerda-central {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #f5f6f7;
-    padding-top: 15px;
-    padding-right: 15px;
+
 }
 .esquerda-inferior {
-    border-top: 1px solid #f5f6f7;
+    
     display: flex;
     justify-content: space-between;
-    padding-top: 15px;
+    
+   
 }
 
 h2 {
@@ -151,6 +154,7 @@ h2 {
     letter-spacing: -0.02em;
     color: #C4170C;
     width: 192px;
+    margin: 10px 0px;
 }
 
 
@@ -176,6 +180,7 @@ h3 {
     color: #2F3134;
     width: 192px;
     margin-bottom: 15px;
+    
 }
 
 
@@ -183,16 +188,15 @@ h3 {
     width: 193px;
     height: 110px;
     border-radius: 12px;
-
 }
 
 .direita {
     background-color: white;
     width: 50%;
-    border-left: 1px solid #f5f6f7;
+    
     display: flex;
-    justify-content: space-around;
-    padding-top: 15px;
+    justify-content: space-between;
+    
 }
 .direita-esquerda h2 {
     font-family: 'Encode Sans';
@@ -243,6 +247,7 @@ h3 {
     letter-spacing: -0.02em;
     color: #EC8006;
     width: 240px;
+    padding-left: 15pxx;
 }
 p {
     font-family: 'Encode Sans';
